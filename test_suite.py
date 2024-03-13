@@ -64,3 +64,4 @@ class TestExamples:
         actual_message = login.validate_password()
         assert(actual_message, 'Valid password')
         
+        #Pruebas s1
