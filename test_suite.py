@@ -64,4 +64,7 @@ class TestExamples:
         actual_message = login.validate_password()
         assert(actual_message, 'Valid password')
         
-        #Pruebas s1
+    def test_012_enter_name_valid(self):
+        form = Form()
+        actual_message = form.enter_name("Kathy")
+        assert actual_message == "Your name is Kathy"
